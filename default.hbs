@@ -13,6 +13,7 @@
 
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/theme.css"}}" />
 
     {{!-- This tag outputs SEO meta+structured data and other important settings --}}
     {{ghost_head}}
@@ -34,6 +35,8 @@
                     <a href="{{@site.url}}">Latest Posts</a>
                     {{#if @site.facebook}}<a href="{{facebook_url @site.facebook}}" target="_blank" rel="noopener">Facebook</a>{{/if}}
                     {{#if @site.twitter}}<a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener">Twitter</a>{{/if}}
+                    <a class="social-link social-link-gh" href="https://github.com/dennisroche" target="_blank" rel="noopener">{{> "icons/github"}}</a>
+                    <a class="social-link social-link-so" href="https://stackoverflow.com/users/73025/dennis" target="_blank" rel="noopener">{{> "icons/stackoverflow"}}</a>
                     <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
                 </nav>
             </div>
