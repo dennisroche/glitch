@@ -12,6 +12,7 @@
     {{!-- Theme assets - use the {asset} helper to reference styles & scripts,
     this will take care of caching and cache-busting automatically --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/theme.css"}}" />
 
     {{!-- This tag outputs all your advanced SEO meta, structured data, and other important settings,
     it should always be the last tag before the closing head tag --}}
@@ -72,6 +73,8 @@
             <section class="copyright">Opinions expressed are my own. All code samples are provided under a <a href="{{@site.url}}/license/">MIT License</a>, unless stated otherwise.</section>
             <nav class="site-footer-nav">
                 {{navigation type="secondary"}}
+                <a class="social-link social-link-gh" href="https://github.com/dennisroche" target="_blank" rel="noopener">{{> "icons/github"}}</a>
+                <a class="social-link social-link-so" href="https://stackoverflow.com/users/73025/dennis" target="_blank" rel="noopener">{{> "icons/stackoverflow"}}</a>
             </nav>
             <div><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
         </div>
