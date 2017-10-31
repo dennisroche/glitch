@@ -1,6 +1,6 @@
 {
-    "name": "casper",
-    "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
+    "name": "glitch",
+    "description": "A modified theme from Casper, the default blogging theme for Ghost. Beautiful, minimal and responsive.",
     "demo": "https://demo.ghost.io",
     "version": "2.11.2",
     "engines": {
@@ -43,7 +43,9 @@
         "url": "https://github.com/TryGhost/Casper.git"
     },
     "bugs": "https://github.com/TryGhost/Casper/issues",
-    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
+    "contributors": [
+        "https://github.com/TryGhost/Casper/graphs/contributors"
+    ],
     "devDependencies": {
         "@tryghost/release-utils": "0.3.2",
         "autoprefixer": "9.6.1",
