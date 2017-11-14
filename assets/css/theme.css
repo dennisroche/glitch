@@ -17,3 +17,9 @@
 .post-full-meta-reading-time {
     color: var(--blue);
 }
+
+.copyright-blurb {
+    text-align: center;
+    max-width: 375px;
+    padding: 5px;
+}
