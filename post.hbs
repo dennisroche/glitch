@@ -72,6 +72,8 @@ into the {body} of the default.hbs template --}}
                     {{> "byline-multiple"}}
                 {{else}}
                     {{> "byline-single"}}
+                    <br/>
+                    <p>Got a question? or want to share your thoughts? Reach out to me on <a href="{{twitter_url @blog.twitter}}" target="_blank" rel="noopener">Twitter</a> or let's talk during <a href="{{@blog.url}}/hours/">Office Hours</a> :punch:.</p>
                 {{/has}}
 
             </footer>
