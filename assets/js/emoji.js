@@ -2488,4 +2488,5 @@ $.fn.emoji = function(){
     });
 };
 
-$('.post-full-content, .post-card-content').emoji();
+$('.post-full-content, .post-card-content, .author-card-content').emoji();
+
