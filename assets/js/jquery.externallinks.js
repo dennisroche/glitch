@@ -8,7 +8,9 @@ $.expr[':'].external = function(obj) {
     return !obj.href.match(/^mailto\:/) && (obj.hostname != location.hostname);
 };
 
-$('a:external').attr({
+// only mark external links within content
+var content = $('.post-full-content, .post-card-content, .author-card-content');
+content.find('a:external').attr({
    target: "_blank",
    title: "Opens in a new window"
 });

@@ -43,6 +43,13 @@ pre[class*="language-"] {
     align-items: flex-start;
 }
 
+a[target="_blank"]:after {
+    font-family: 'FontAwesome';
+    content: " \f08e";
+    font-size: x-small;
+    vertical-align: super;
+}
+
 kbd
 {
     font-size: 15px;
