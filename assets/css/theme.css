@@ -30,6 +30,15 @@
     align-self: start;
 }
 
+.post-full-content pre {
+    border: none;
+}
+
+pre[class*="language-"] {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 .post-full-footer {
     align-items: flex-start;
 }
