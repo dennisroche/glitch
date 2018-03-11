@@ -39,6 +39,10 @@ pre[class*="language-"] {
     overflow-y: hidden;
 }
 
+.gist {
+    width: 105%
+}
+
 .post-full-footer {
     align-items: flex-start;
 }
